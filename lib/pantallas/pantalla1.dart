@@ -70,7 +70,7 @@ class InformacionUsuario extends StatelessWidget {
             title: Text('carrera: ${this.usuario.carrera}'),
           ),
           Divider(),
-          Text('Materias'),
+          Text('Participaciones'),
           Divider(),
           ...usuario.participacion.map(
             (e) => ListTile(
